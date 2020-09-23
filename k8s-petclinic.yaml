@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: petclinic
-        image: harbor.tanzuworld.com/openso/petclinic
+        image: harbor.tanzuworld.com/openso/petclinic:latest
         ports:
         - containerPort: 8080
